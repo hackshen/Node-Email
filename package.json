@@ -1,0 +1,16 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "- 偶尔玩了一下，还在开发\r - 只需修改config下的con_email.js",
+  "main": "app.js",
+  "dependencies": {
+    "_nodemailer@4.0.1@nodemailer": "^4.0.1",
+    "nodemailer": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
