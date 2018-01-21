@@ -12,13 +12,13 @@ var mailOptions = {
     to:'hackshen.com@gmail.com', //收信人账号
     subject:'Email Title', //邮件标题
     html: `<p>发信测试</p>` //邮件内容
-}; 
+};
 transporter.sendMail(mailOptions,function(err,info){
     if(err){
         console.log(err);
         return;
     }
-    console.log('Successful ！')
+    console.log('Successful!😀')
 })
 
 module.exports = transporter;
